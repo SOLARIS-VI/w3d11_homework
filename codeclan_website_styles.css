@@ -1,0 +1,118 @@
+body{
+
+    font-family: 'Helvetica', Helvetica, monospace;
+    margin: 20;
+    padding: 10;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;  
+
+}
+
+
+header {
+
+    background-color: rgb(94, 142, 239);
+    color: #fff;
+    
+}
+
+
+nav ul{
+
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+
+nav {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+nav ul li:first-child {
+
+    margin: 0;
+
+}
+
+
+article {
+
+    margin-left: 0px;
+    
+}
+
+
+article header {
+
+    margin-bottom: 10px;
+
+}
+
+
+footer {
+
+    background-color:  rgb(94, 142, 239);
+    color: #fff;
+    text-align: center;
+    position: relative; 
+    padding: 10px;
+
+}
+
+
+.comment-box {
+  width: 90%; 
+  margin: 0 auto;
+}
+
+
+textarea {
+  width: 100%;
+}
+
+
+button {
+    display: block; /* Ensures the button is on a new line */
+    margin-top: 10px; /* Provides some spacing between the textarea and button */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #4caf50; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none;
+    cursor: pointer;
+  }
+
+
+  section#section1 nav ul li a {
+    color: #6267ea; /* Change the font color for the navigation links in section 1 */
+  }
+
+  section#section2 nav ul li a {
+    color: #ffffff; /* Change the font color for the navigation links in section 2 */
+  }
+
+  .comment-block {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    margin-bottom: 20px;
+    text-align: center; /* Center the text within the comment block */
+    border-bottom: 1px solid #ccc; /* Add a thin line at the bottom of each comment block */
+    padding-bottom: 10px; /* Add some spacing below the comment block */
+  }
+  
+  .user-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Add some spacing between the thumbnail and the comment text */
+  }
+  
+  
+  
